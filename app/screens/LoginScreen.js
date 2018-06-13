@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {NavigationActions} from 'react-navigation';
-import Toast from 'react-native-toast';
+import Toast from 'react-native-root-toast';
 import StorageUtil from '../utils/StorageUtil';
 import Utils from '../utils/Utils';
 import CommonTitleBar from '../views/CommonTitleBar';
@@ -104,97 +104,23 @@ export default class LoginScreen extends Component {
   }
 
   login() {
-    let username = '';
-    if (Utils.isEmpty(this.state.username)) {
-      username = this.state.inputUsername;
-    } else {
-      username = this.state.username;
-    }
-    let password = this.state.password;
-    if (Utils.isEmpty(username) || Utils.isEmpty(password)) {
-      Toast.showShortCenter('用户名或密码不能为空');
-      return;
-    }
-    let url = 'http://app.yubo725.top/login2';//
-    let formData = new FormData();
-    formData.append('username', username);
-    formData.append('password', password);
-    this.setState({showProgress: true});
-    fetch(url, {method: 'POST', body: formData})
-      .then((res) => res.json())
-      .then((json) => {
-        this.setState({showProgress: false});
-        if (!Utils.isEmpty(json)) {
-          if (json.code === 1) {
-            // 登录服务器成功，再登录NIM的服务器
-            let data = json.msg;
-            if (data != null) {
-              let userInfo = {
-                username: username,
-                nick: data.nick,
-                avatar: data.avatar
-              };
-              let key = 'userInfo-' + username;
-              StorageUtil.set(key, {'info': userInfo});
-              Toast.showShortCenter('登录聊天服务器...');
-              this.registerHXListener();
-              this.loginToHX(username, password);
-            }
-          } else {
-            Toast.showShortCenter(json.msg);
-          }
-        } else {
-          Toast.showShortCenter('登录失败');
-        }
-      }).catch((e) => {
-      this.setState({showProgress: false});
-      Toast.showShortCenter('网络请求出错: ' + e);
-    });
-  }
-
-  loginToHX(username, password) {
-    // 登录环信聊天服务器
-    this.loginUsername = username;
-    this.loginPassword = password;
-    if (WebIM.conn.isOpened()) {
-      WebIM.conn.close('logout');
-    }
-    // 下面调用成功后，会回调SplashScreen中注册的listener
-    WebIM.conn.open({
-      apiUrl: WebIM.config.apiURL,
-      user: username,
-      pwd: password,
-      appKey: WebIM.config.appkey
-    });
-  }
-
-  registerHXListener() {
-    WebIM.conn.listen({
-      // xmpp连接成功
-      onOpened: (msg) => {
-        // 登录环信服务器成功后回调这里，关闭当前页面并跳转到HomeScreen
-        Toast.showShortCenter('登录成功');
+        // fetch login api
+        Toast.show('登录成功');
         StorageUtil.set('hasLogin', {'hasLogin': true});
-        StorageUtil.set('username', {'username': this.loginUsername});
-        StorageUtil.set('password', {'password': this.loginPassword});
+        StorageUtil.set('username', {'username': this.state.username});
+        StorageUtil.set('password', {'password': this.state.password});
+        this.props.navigation.navigate('Home');
+        /*
         const resetAction = NavigationActions.reset({
           index: 0,
           actions: [
-            NavigationActions.navigate({routeName: 'Home'})
-          ]
+            NavigationActions.navigate({ routeName: 'Home'})
+          ],
+          key:null
         });
-        this.props.navigation.dispatch(resetAction);
-      },
-      // 各种异常
-      onError: (error) => {
-        Toast.showShortCenter('登录聊天服务器出错');
-        console.log('onError: ' + JSON.stringify(error))
-      },
-      // 连接断开
-      onClosed: (msg) => {
-        // Toast.showShortCenter('与聊天服务器连接断开');
-      },
-    });
+        
+
+        */
   }
 
 }
