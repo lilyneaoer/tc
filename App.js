@@ -48,7 +48,7 @@ const indexScreen = TabNavigator({
 
 
 export default App= createStackNavigator({
-  Splash: {screen: SplashScreen},
+  // Splash: {screen: SplashScreen},
   Login: {screen: LoginScreen},
   Home: {screen:indexScreen}
 }, {

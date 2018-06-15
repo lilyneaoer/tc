@@ -43,7 +43,7 @@ import {
                 </TouchableOpacity>
                 <TouchableOpacity style={{flex: 1}} activeOpacity={0.6} >
                   <View style={[styles.btnRegister, styles.btnColumn]}>
-                    <Text style={[styles.button, {color: 'red'}]}>注册</Text>
+                    <Text style={styles.button}>退出</Text>
                   </View>
                 </TouchableOpacity>
               </View>

@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import {NavigationActions} from 'react-navigation';
 import Toast from 'react-native-root-toast';
 import StorageUtil from '../utils/StorageUtil';
+import LoadingView from '../views/LoadingView';
 import Utils from '../utils/Utils';
+import config from '../config.js';
 import CommonTitleBar from '../views/CommonTitleBar';
 
 import {
@@ -27,6 +29,7 @@ export default class LoginScreen extends Component {
       username: '',
       password: '',
       showProgress: false,
+      token: '',
       avatar: ''
     };
     StorageUtil.get('username', (error, object) => {
@@ -104,25 +107,88 @@ export default class LoginScreen extends Component {
   }
 
   login() {
-        // fetch login api
-        Toast.show('登录成功');
-        StorageUtil.set('hasLogin', {'hasLogin': true});
-        StorageUtil.set('username', {'username': this.state.username});
-        StorageUtil.set('password', {'password': this.state.password});
-        this.props.navigation.navigate('Home');
-        /*
-        const resetAction = NavigationActions.reset({
-          index: 0,
-          actions: [
-            NavigationActions.navigate({ routeName: 'Home'})
-          ],
-          key:null
-        });
-        
-
-        */
+    console.log('login_start');
+    if (Utils.isEmpty(this.state.username)) {
+        username = this.state.inputUsername;
+    } else {
+        username = this.state.username;
+    }
+    let password = this.state.password;
+    if (Utils.isEmpty(username) || Utils.isEmpty(password)) {
+      Toast.show('用户名或密码不能为空');
+      return;
+    }
+    let url = `${config.http.apiPrefix}/login`;
+    let STORAGE_KEY =  'id_token';
+    const headers = { 'Content-type': 'application/json; charset=UTF-8' };
+    let postData = {
+      method: 'POST',
+      headers: headers,
+      body: JSON.stringify({
+        username: username,
+        password: password,
+      }),
+    };
+    // this.setState({showProgress: true});
+    // jwt
+    fetch(url, postData)
+      .then((res) => {
+        // this.setState({showProgress: false});
+        console.log(res);
+        // 检验服务端返回状态
+        // if (res.status === config.http.status.success) {
+        if (res.status === 200) {
+          console.log('In');
+          Toast.show('登录成功');
+          // this.props.navigation.navigate('Home');
+        } else {
+          console.log('out');
+          Toast.show('登录失败');
+        }
+      });
+    console.log('fetchEnd');
+    // fetch(url, {
+    //   method: 'POST',
+    //   headers: header,
+    //   body: postData,
+    // })
+    //   .then((res) => res.json())
+    //   .then((json) => {
+    //     // this.setState({showProgress: false});
+    //     if (!Utils.isEmpty(json)) {
+    //       if (json.code === 1) {
+    //         // 登录服务器成功，再登录NIM的服务器
+    //         Toast.show('登录成功');
+    //         StorageUtil.set('hasLogin', {'hasLogin': true});
+    //         StorageUtil.set('username', {'username': this.state.username});
+    //         StorageUtil.set('password', {'password': this.state.password});
+    //         StorageUtil.set('tokenKey', {'tokenKey': this.state.tokenKey});
+    //         this.props.navigation.navigate('Home');
+    //       }
+    //     } else {
+    //       Toast.show('登录失败');
+    //     }
+    //   }).catch((e) => {
+    //     this.setState({showProgress: false});
+    //     Toast.show('网络请求出错: ' + e);
+    //   });
+    // -----------------------------------------------
+    // console.log('loginOK');
+    // Toast.show('登录成功');
+    // StorageUtil.set('hasLogin', {'hasLogin': true});
+    // StorageUtil.set('username', {'username': this.state.username});
+    // StorageUtil.set('password', {'password': this.state.password});
+    // this.props.navigation.navigate('Home');
+    /*
+    const resetAction = NavigationActions.reset({
+    index: 0,
+    actions: [
+    NavigationActions.navigate({ routeName: 'Home'})
+    ],
+    key:null
+    });
+    */
   }
-
 }
 
 
