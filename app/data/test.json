@@ -1,19 +1,3596 @@
 {
-  "data": [
-    {
-      "image": "gujing",
-      "money": "102",
-      "name": "古井贡酒历史悠久产于有悠久历史酒文化的古井村谁知道好喝不好喝谁喝谁知道茅台文化村"
-    },
-    {
-      "image": "jiangxiaobai",
-      "money": "103",
-      "name": "江小白酒历史悠久产于有悠久历史酒文化的古井村谁知道好喝不好喝谁喝谁知道茅台文化村"
-    },
-    {
-      "image": "jigongshan",
-      "money": "104",
-      "name": "鸡公山酒历史悠久产于有悠久历史酒文化的古井村谁知道好喝不好喝谁喝谁知道茅台文化村"
-    }
-  ]
+	"status": "success",
+	"data": {
+		"content": [{
+			"id": "2cb2a8d163fdf9890163fe1f292e0009",
+			"enable": true,
+			"createdDate": "2018-06-14 19:47",
+			"lastModifiedDate": "2018-06-14 19:48",
+			"createdBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"lastModifiedBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"state": "Complete",
+			"assigneeNotifyDtos": [],
+			"action": {
+				"canView": false,
+				"canAlter": false,
+				"canCancel": false,
+				"canFlowable": true,
+				"canBackInitiator": true,
+				"canFlowableAlter": false,
+				"canCancelAlter": false,
+				"canAlterAfterReject": false,
+				"canSponsorAlter": false,
+				"canAttachment": true,
+				"canAudit": false,
+				"canAuditAlter": false,
+				"canFileIssue": false,
+				"canPlusSign": false,
+				"canPause": false,
+				"canSendUrge": false,
+				"canApproveHis": true,
+				"canBack": false,
+				"resume": false
+			},
+			"beforeSign": null,
+			"afterSign": null,
+			"delegateRemark": null,
+			"alterReasons": [],
+			"rejectReasons": [],
+			"canceledReasons": [],
+			"hisTaskStatistics": [{
+				"count": 1,
+				"name": "填写申请表",
+				"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+				"firstStartTime": "2018-06-14 19:47",
+				"hisTasks": [{
+					"id": "2cb2a8d163fdf9890163fe1f2977000b",
+					"taskId": "656064",
+					"name": "填写申请表",
+					"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-14 19:47",
+					"endTime": "2018-06-14 19:47",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8d163fdf9890163fe1f2977000c",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【文书审核】"
+					},
+					{
+						"id": "2cb2a8d163fdf9890163fe1f2977000d",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8d163fdf9890163fe1f2977000e",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					},
+					{
+						"id": "2cb2a8d163fdf9890163fe1f2977000f",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "2cb2a8d163fdf9890163fe1f29770010",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "文书审核",
+				"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+				"firstStartTime": "2018-06-14 19:48",
+				"hisTasks": [{
+					"id": "2cb2a8d163fdf9890163fe1fcbba0013",
+					"taskId": "656070",
+					"name": "文书审核",
+					"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-14 19:48",
+					"endTime": "2018-06-14 19:48",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8d163fdf9890163fe1fcbba0014",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【结束】"
+					},
+					{
+						"id": "2cb2a8d163fdf9890163fe1fcbba0015",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8d163fdf9890163fe1fcbba0016",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "广泛覆盖"
+					},
+					{
+						"id": "2cb2a8d163fdf9890163fe1fcbba0017",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": null
+					}]
+				}],
+				"currentTasks": []
+			}],
+			"docProcess": {
+				"enable": true,
+				"key": "internal_notice",
+				"value": "内部通知",
+				"dictAttributes": []
+			},
+			"fileTitle": "U有图图",
+			"draftOrg": {
+				"id": "402883d15dc62410015dc637d8a00009",
+				"name": "党政办公室"
+			},
+			"draftDate": "2018-06-14",
+			"drafter": {
+				"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"name": "管力瑶",
+				"cellPhone": "13577105703",
+				"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+				"certificateNumber": "530103198911033722",
+				"organization": {
+					"id": "402883d15dc62410015dc637d8a00009",
+					"name": "党政办公室"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc637d8a1000f",
+					"name": "党政办公室文秘岗（印章管理岗）"
+				},
+				"age": 29,
+				"nameAndOrg": "管力瑶-党政办公室"
+			},
+			"securityLevel": null,
+			"securityDeadline": null,
+			"emergencyDegree": null,
+			"fileType": null,
+			"fileNum": null,
+			"sendMainOrg": [],
+			"sendObiterOrg": [],
+			"sendMainParty": [],
+			"sendObiterParty": [],
+			"docAttachment": [{
+				"id": "2cb2a8d163fdf9890163fe1fcc450018",
+				"enable": true,
+				"createdDate": "2018-06-14 19:48",
+				"lastModifiedDate": "2018-06-14 19:48",
+				"createdBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"name": "ip连接.png",
+				"attachment": "dd11daa666c3e3da9b7e4f3d2ad2761e",
+				"type": "png"
+			}],
+			"otherAttachment": [],
+			"attachmentNum": 1,
+			"remark": null,
+			"signer": null,
+			"sender": null,
+			"sendDocDate": null,
+			"pageNum": 0,
+			"printPerson": null,
+			"publishNum": 0,
+			"proofreader": null,
+			"limitDate": null,
+			"validDate": null,
+			"archiveOrg": null,
+			"focusEmp": [],
+			"sendType": "公司发文",
+			"hasIssue": false,
+			"focus": false,
+			"sendCanal": [{
+				"enable": true,
+				"key": "neiwang",
+				"value": "内网",
+				"dictAttributes": []
+			}],
+			"syncTo": [{
+				"id": "8a80cb815d459a9e015d45a5f36e0001",
+				"enable": true,
+				"sort": 2,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15ccd5c03015ccdb441f6000a",
+					"enable": true,
+					"createdDate": "2017-06-22 10:49",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "首页",
+					"uri": "home",
+					"visible": false,
+					"sort": 0,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "nbtz",
+				"createdDate": "2017-07-15 17:48",
+				"lastModifiedDate": "2017-07-15 17:48",
+				"createdBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"hits": 0,
+				"writable": false
+			},
+			{
+				"id": "402883d15ce2f3fb015ce30aa4cd0007",
+				"enable": true,
+				"sort": 1,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15cc54f5d015cc56bf14e0006",
+					"enable": true,
+					"createdDate": "2017-06-20 20:13",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "文件通知",
+					"uri": "notification",
+					"visible": true,
+					"sort": 3,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "internal",
+				"createdDate": "2017-06-26 14:15",
+				"lastModifiedDate": "2017-06-27 09:56",
+				"createdBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"lastModifiedBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"hits": 0,
+				"writable": false
+			}],
+			"noticeEmployees": [],
+			"sendContent": null,
+			"nextStepUri": "oaManagement/sendDocument",
+			"sendMainList": [],
+			"sendObiterList": [],
+			"hasArchive": false,
+			"import": false,
+			"alter": false
+		},
+		{
+			"id": "2cb2a8c263f306800163f8925b2d0d43",
+			"enable": true,
+			"createdDate": "2018-06-13 17:55",
+			"lastModifiedDate": "2018-06-14 19:11",
+			"createdBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"lastModifiedBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"state": "Complete",
+			"assigneeNotifyDtos": [],
+			"action": {
+				"canView": false,
+				"canAlter": false,
+				"canCancel": false,
+				"canFlowable": true,
+				"canBackInitiator": true,
+				"canFlowableAlter": false,
+				"canCancelAlter": false,
+				"canAlterAfterReject": false,
+				"canSponsorAlter": false,
+				"canAttachment": true,
+				"canAudit": false,
+				"canAuditAlter": false,
+				"canFileIssue": false,
+				"canPlusSign": false,
+				"canPause": false,
+				"canSendUrge": false,
+				"canApproveHis": true,
+				"canBack": false,
+				"resume": false
+			},
+			"beforeSign": null,
+			"afterSign": null,
+			"delegateRemark": null,
+			"alterReasons": [],
+			"rejectReasons": [],
+			"canceledReasons": [],
+			"hisTaskStatistics": [{
+				"count": 1,
+				"name": "填写申请表",
+				"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+				"firstStartTime": "2018-06-13 17:55",
+				"hisTasks": [{
+					"id": "2cb2a8c263f306800163f8925c750d45",
+					"taskId": "655279",
+					"name": "填写申请表",
+					"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-13 17:55",
+					"endTime": "2018-06-13 17:55",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8c263f306800163f8925c750d46",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【文书审核】"
+					},
+					{
+						"id": "2cb2a8c263f306800163f8925c750d47",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8c263f306800163f8925c750d48",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					},
+					{
+						"id": "2cb2a8c263f306800163f8925c750d49",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "2cb2a8c263f306800163f8925c750d4a",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "文书审核",
+				"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+				"firstStartTime": "2018-06-14 19:11",
+				"hisTasks": [{
+					"id": "2cb2a8c263fd24aa0163fdfe4efb0002",
+					"taskId": "655285",
+					"name": "文书审核",
+					"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-14 19:11",
+					"endTime": "2018-06-14 19:11",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8c263fd24aa0163fdfe4efb0003",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【结束】"
+					},
+					{
+						"id": "2cb2a8c263fd24aa0163fdfe4efb0004",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8c263fd24aa0163fdfe4efb0005",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "建发股份"
+					},
+					{
+						"id": "2cb2a8c263fd24aa0163fdfe4efb0006",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": null
+					}]
+				}],
+				"currentTasks": []
+			}],
+			"docProcess": {
+				"enable": true,
+				"key": "internal_notice",
+				"value": "内部通知",
+				"dictAttributes": []
+			},
+			"fileTitle": "2018-06-12发文拟稿测试001内部通知",
+			"draftOrg": {
+				"id": "402883d15dc62410015dc637d8a00009",
+				"name": "党政办公室"
+			},
+			"draftDate": "2018-06-13",
+			"drafter": {
+				"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"name": "管力瑶",
+				"cellPhone": "13577105703",
+				"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+				"certificateNumber": "530103198911033722",
+				"organization": {
+					"id": "402883d15dc62410015dc637d8a00009",
+					"name": "党政办公室"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc637d8a1000f",
+					"name": "党政办公室文秘岗（印章管理岗）"
+				},
+				"age": 29,
+				"nameAndOrg": "管力瑶-党政办公室"
+			},
+			"securityLevel": null,
+			"securityDeadline": null,
+			"emergencyDegree": null,
+			"fileType": null,
+			"fileNum": null,
+			"sendMainOrg": [],
+			"sendObiterOrg": [],
+			"sendMainParty": [],
+			"sendObiterParty": [],
+			"docAttachment": [{
+				"id": "2cb2a8c263fd24aa0163fdfe4fc60007",
+				"enable": true,
+				"createdDate": "2018-06-14 19:11",
+				"lastModifiedDate": "2018-06-14 19:11",
+				"createdBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"name": "true.jpg",
+				"attachment": "b4e4cd299715dff7e68a96caf1672b61",
+				"type": "jpg"
+			}],
+			"otherAttachment": [],
+			"attachmentNum": 0,
+			"remark": null,
+			"signer": null,
+			"sender": null,
+			"sendDocDate": null,
+			"pageNum": 0,
+			"printPerson": null,
+			"publishNum": 0,
+			"proofreader": null,
+			"limitDate": null,
+			"validDate": null,
+			"archiveOrg": null,
+			"focusEmp": [],
+			"sendType": "公司发文",
+			"hasIssue": false,
+			"focus": false,
+			"sendCanal": [{
+				"enable": true,
+				"key": "neiwang",
+				"value": "内网",
+				"dictAttributes": []
+			}],
+			"syncTo": [{
+				"id": "8a80cb815d459a9e015d45a5f36e0001",
+				"enable": true,
+				"sort": 2,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15ccd5c03015ccdb441f6000a",
+					"enable": true,
+					"createdDate": "2017-06-22 10:49",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "首页",
+					"uri": "home",
+					"visible": false,
+					"sort": 0,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "nbtz",
+				"createdDate": "2017-07-15 17:48",
+				"lastModifiedDate": "2017-07-15 17:48",
+				"createdBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"hits": 0,
+				"writable": false
+			},
+			{
+				"id": "402883d15ce2f3fb015ce30aa4cd0007",
+				"enable": true,
+				"sort": 1,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15cc54f5d015cc56bf14e0006",
+					"enable": true,
+					"createdDate": "2017-06-20 20:13",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "文件通知",
+					"uri": "notification",
+					"visible": true,
+					"sort": 3,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "internal",
+				"createdDate": "2017-06-26 14:15",
+				"lastModifiedDate": "2017-06-27 09:56",
+				"createdBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"lastModifiedBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"hits": 0,
+				"writable": false
+			}],
+			"noticeEmployees": [],
+			"sendContent": null,
+			"nextStepUri": "oaManagement/sendDocument",
+			"sendMainList": [],
+			"sendObiterList": [],
+			"hasArchive": false,
+			"import": false,
+			"alter": false
+		},
+		{
+			"id": "2cb2a8d163f707880163f8a63abe0036",
+			"enable": true,
+			"createdDate": "2018-06-13 18:17",
+			"lastModifiedDate": "2018-06-14 19:09",
+			"createdBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"lastModifiedBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"state": "Complete",
+			"assigneeNotifyDtos": [],
+			"action": {
+				"canView": false,
+				"canAlter": false,
+				"canCancel": false,
+				"canFlowable": true,
+				"canBackInitiator": true,
+				"canFlowableAlter": false,
+				"canCancelAlter": false,
+				"canAlterAfterReject": false,
+				"canSponsorAlter": false,
+				"canAttachment": true,
+				"canAudit": false,
+				"canAuditAlter": false,
+				"canFileIssue": false,
+				"canPlusSign": false,
+				"canPause": false,
+				"canSendUrge": false,
+				"canApproveHis": true,
+				"canBack": false,
+				"resume": false
+			},
+			"beforeSign": null,
+			"afterSign": null,
+			"delegateRemark": null,
+			"alterReasons": [],
+			"rejectReasons": [],
+			"canceledReasons": [],
+			"hisTaskStatistics": [{
+				"count": 1,
+				"name": "填写申请表",
+				"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+				"firstStartTime": "2018-06-13 18:17",
+				"hisTasks": [{
+					"id": "2cb2a8d163f707880163f8a63adc0038",
+					"taskId": "655416",
+					"name": "填写申请表",
+					"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-13 18:17",
+					"endTime": "2018-06-13 18:17",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8d163f707880163f8a63adc0039",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【文书审核】"
+					},
+					{
+						"id": "2cb2a8d163f707880163f8a63adc003a",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8d163f707880163f8a63adc003b",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					},
+					{
+						"id": "2cb2a8d163f707880163f8a63adc003c",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "2cb2a8d163f707880163f8a63adc003d",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "文书审核",
+				"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+				"firstStartTime": "2018-06-14 19:09",
+				"hisTasks": [{
+					"id": "2cb2a8d163fdf9890163fdfca9cd0000",
+					"taskId": "655422",
+					"name": "文书审核",
+					"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-14 19:09",
+					"endTime": "2018-06-14 19:09",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8d163fdf9890163fdfcaa020001",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【结束】"
+					},
+					{
+						"id": "2cb2a8d163fdf9890163fdfcaa030002",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8d163fdf9890163fdfcaa030003",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "好地方法规"
+					},
+					{
+						"id": "2cb2a8d163fdf9890163fdfcaa030004",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					}]
+				}],
+				"currentTasks": []
+			}],
+			"docProcess": {
+				"enable": true,
+				"key": "internal_notice",
+				"value": "内部通知",
+				"dictAttributes": []
+			},
+			"fileTitle": "吃三次004",
+			"draftOrg": {
+				"id": "402883d15dc62410015dc637d8a00009",
+				"name": "党政办公室"
+			},
+			"draftDate": "2018-06-13",
+			"drafter": {
+				"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"name": "管力瑶",
+				"cellPhone": "13577105703",
+				"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+				"certificateNumber": "530103198911033722",
+				"organization": {
+					"id": "402883d15dc62410015dc637d8a00009",
+					"name": "党政办公室"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc637d8a1000f",
+					"name": "党政办公室文秘岗（印章管理岗）"
+				},
+				"age": 29,
+				"nameAndOrg": "管力瑶-党政办公室"
+			},
+			"securityLevel": null,
+			"securityDeadline": null,
+			"emergencyDegree": null,
+			"fileType": null,
+			"fileNum": null,
+			"sendMainOrg": [],
+			"sendObiterOrg": [],
+			"sendMainParty": [],
+			"sendObiterParty": [],
+			"docAttachment": [{
+				"id": "2cb2a8d163fdf9890163fdfcab670005",
+				"enable": true,
+				"createdDate": "2018-06-14 19:09",
+				"lastModifiedDate": "2018-06-14 19:09",
+				"createdBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"name": "true.jpg",
+				"attachment": "b4e4cd299715dff7e68a96caf1672b61",
+				"type": "jpg"
+			}],
+			"otherAttachment": [],
+			"attachmentNum": 0,
+			"remark": null,
+			"signer": null,
+			"sender": null,
+			"sendDocDate": null,
+			"pageNum": 0,
+			"printPerson": null,
+			"publishNum": 0,
+			"proofreader": null,
+			"limitDate": null,
+			"validDate": null,
+			"archiveOrg": null,
+			"focusEmp": [],
+			"sendType": "公司发文",
+			"hasIssue": false,
+			"focus": false,
+			"sendCanal": [{
+				"enable": true,
+				"key": "neiwang",
+				"value": "内网",
+				"dictAttributes": []
+			}],
+			"syncTo": [{
+				"id": "8a80cb815d459a9e015d45a5f36e0001",
+				"enable": true,
+				"sort": 2,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15ccd5c03015ccdb441f6000a",
+					"enable": true,
+					"createdDate": "2017-06-22 10:49",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "首页",
+					"uri": "home",
+					"visible": false,
+					"sort": 0,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "nbtz",
+				"createdDate": "2017-07-15 17:48",
+				"lastModifiedDate": "2017-07-15 17:48",
+				"createdBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"hits": 0,
+				"writable": false
+			},
+			{
+				"id": "402883d15ce2f3fb015ce30aa4cd0007",
+				"enable": true,
+				"sort": 1,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15cc54f5d015cc56bf14e0006",
+					"enable": true,
+					"createdDate": "2017-06-20 20:13",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "文件通知",
+					"uri": "notification",
+					"visible": true,
+					"sort": 3,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "internal",
+				"createdDate": "2017-06-26 14:15",
+				"lastModifiedDate": "2017-06-27 09:56",
+				"createdBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"lastModifiedBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"hits": 0,
+				"writable": false
+			}],
+			"noticeEmployees": [],
+			"sendContent": null,
+			"nextStepUri": "oaManagement/sendDocument",
+			"sendMainList": [],
+			"sendObiterList": [],
+			"hasArchive": false,
+			"import": false,
+			"alter": false
+		},
+		{
+			"id": "2cb2a8d163fddb690163fde41fe30015",
+			"enable": true,
+			"createdDate": "2018-06-14 18:42",
+			"lastModifiedDate": "2018-06-14 18:50",
+			"createdBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"lastModifiedBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"state": "Complete",
+			"assigneeNotifyDtos": [],
+			"action": {
+				"canView": false,
+				"canAlter": false,
+				"canCancel": false,
+				"canFlowable": true,
+				"canBackInitiator": true,
+				"canFlowableAlter": false,
+				"canCancelAlter": false,
+				"canAlterAfterReject": false,
+				"canSponsorAlter": false,
+				"canAttachment": true,
+				"canAudit": false,
+				"canAuditAlter": false,
+				"canFileIssue": false,
+				"canPlusSign": false,
+				"canPause": false,
+				"canSendUrge": false,
+				"canApproveHis": true,
+				"canBack": false,
+				"resume": false
+			},
+			"beforeSign": null,
+			"afterSign": null,
+			"delegateRemark": null,
+			"alterReasons": [],
+			"rejectReasons": [],
+			"canceledReasons": [],
+			"hisTaskStatistics": [{
+				"count": 1,
+				"name": "填写申请表",
+				"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+				"firstStartTime": "2018-06-14 18:42",
+				"hisTasks": [{
+					"id": "2cb2a8d163fddb690163fde421ae0017",
+					"taskId": "655994",
+					"name": "填写申请表",
+					"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-14 18:42",
+					"endTime": "2018-06-14 18:42",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8d163fddb690163fde421ae0018",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【文书审核】"
+					},
+					{
+						"id": "2cb2a8d163fddb690163fde421ae0019",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8d163fddb690163fde421ae001a",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					},
+					{
+						"id": "2cb2a8d163fddb690163fde421ae001b",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "2cb2a8d163fddb690163fde421ae001c",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "文书审核",
+				"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+				"firstStartTime": "2018-06-14 18:50",
+				"hisTasks": [{
+					"id": "2cb2a8d163fddb690163fdeabf9d001f",
+					"taskId": "656000",
+					"name": "文书审核",
+					"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-14 18:50",
+					"endTime": "2018-06-14 18:50",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8d163fddb690163fdeabf9d0020",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【结束】"
+					},
+					{
+						"id": "2cb2a8d163fddb690163fdeabf9d0021",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8d163fddb690163fdeabf9d0022",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "地方郭德纲"
+					},
+					{
+						"id": "2cb2a8d163fddb690163fdeabf9d0023",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": null
+					}]
+				}],
+				"currentTasks": []
+			}],
+			"docProcess": {
+				"enable": true,
+				"key": "internal_notice",
+				"value": "内部通知",
+				"dictAttributes": []
+			},
+			"fileTitle": "热认为",
+			"draftOrg": {
+				"id": "402883d15dc62410015dc637d8a00009",
+				"name": "党政办公室"
+			},
+			"draftDate": "2018-06-14",
+			"drafter": {
+				"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"name": "管力瑶",
+				"cellPhone": "13577105703",
+				"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+				"certificateNumber": "530103198911033722",
+				"organization": {
+					"id": "402883d15dc62410015dc637d8a00009",
+					"name": "党政办公室"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc637d8a1000f",
+					"name": "党政办公室文秘岗（印章管理岗）"
+				},
+				"age": 29,
+				"nameAndOrg": "管力瑶-党政办公室"
+			},
+			"securityLevel": null,
+			"securityDeadline": null,
+			"emergencyDegree": null,
+			"fileType": null,
+			"fileNum": null,
+			"sendMainOrg": [],
+			"sendObiterOrg": [],
+			"sendMainParty": [],
+			"sendObiterParty": [],
+			"docAttachment": [{
+				"id": "2cb2a8d163fddb690163fdeac1240024",
+				"enable": true,
+				"createdDate": "2018-06-14 18:50",
+				"lastModifiedDate": "2018-06-14 18:50",
+				"createdBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"name": "ip连接.png",
+				"attachment": "dd11daa666c3e3da9b7e4f3d2ad2761e",
+				"type": "png"
+			}],
+			"otherAttachment": [],
+			"attachmentNum": 1,
+			"remark": null,
+			"signer": null,
+			"sender": null,
+			"sendDocDate": null,
+			"pageNum": 0,
+			"printPerson": null,
+			"publishNum": 0,
+			"proofreader": null,
+			"limitDate": null,
+			"validDate": null,
+			"archiveOrg": null,
+			"focusEmp": [],
+			"sendType": "公司发文",
+			"hasIssue": false,
+			"focus": false,
+			"sendCanal": [{
+				"enable": true,
+				"key": "neiwang",
+				"value": "内网",
+				"dictAttributes": []
+			}],
+			"syncTo": [{
+				"id": "8a80cb815d459a9e015d45a5f36e0001",
+				"enable": true,
+				"sort": 2,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15ccd5c03015ccdb441f6000a",
+					"enable": true,
+					"createdDate": "2017-06-22 10:49",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "首页",
+					"uri": "home",
+					"visible": false,
+					"sort": 0,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "nbtz",
+				"createdDate": "2017-07-15 17:48",
+				"lastModifiedDate": "2017-07-15 17:48",
+				"createdBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"hits": 0,
+				"writable": false
+			},
+			{
+				"id": "402883d15ce2f3fb015ce30aa4cd0007",
+				"enable": true,
+				"sort": 1,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15cc54f5d015cc56bf14e0006",
+					"enable": true,
+					"createdDate": "2017-06-20 20:13",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "文件通知",
+					"uri": "notification",
+					"visible": true,
+					"sort": 3,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "internal",
+				"createdDate": "2017-06-26 14:15",
+				"lastModifiedDate": "2017-06-27 09:56",
+				"createdBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"lastModifiedBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"hits": 0,
+				"writable": false
+			}],
+			"noticeEmployees": [],
+			"sendContent": null,
+			"nextStepUri": "oaManagement/sendDocument",
+			"sendMainList": [],
+			"sendObiterList": [],
+			"hasArchive": false,
+			"import": false,
+			"alter": false
+		},
+		{
+			"id": "4028ca8263fd735e0163fd7a5c290004",
+			"enable": true,
+			"createdDate": "2018-06-14 16:47",
+			"lastModifiedDate": "2018-06-14 16:57",
+			"createdBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"lastModifiedBy": {
+				"owner": "402883d15dc78ccb015dc7ae3b930d60",
+				"ownerName": "雍伟勋",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"state": "Complete",
+			"assigneeNotifyDtos": [],
+			"action": {
+				"canView": false,
+				"canAlter": true,
+				"canCancel": false,
+				"canFlowable": true,
+				"canBackInitiator": true,
+				"canFlowableAlter": false,
+				"canCancelAlter": false,
+				"canAlterAfterReject": false,
+				"canSponsorAlter": false,
+				"canAttachment": true,
+				"canAudit": false,
+				"canAuditAlter": false,
+				"canFileIssue": false,
+				"canPlusSign": false,
+				"canPause": false,
+				"canSendUrge": false,
+				"canApproveHis": true,
+				"canBack": true,
+				"resume": false
+			},
+			"beforeSign": null,
+			"afterSign": null,
+			"delegateRemark": null,
+			"alterReasons": [],
+			"rejectReasons": [],
+			"canceledReasons": [],
+			"hisTaskStatistics": [{
+				"count": 1,
+				"name": "发文拟稿",
+				"taskDefinitionKey": "sid-D250DB79-056C-48B3-BB6D-8EDB92ECABD1",
+				"firstStartTime": "2018-06-14 16:47",
+				"hisTasks": [{
+					"id": "4028ca8263fd735e0163fd7a5c770006",
+					"taskId": "655784",
+					"name": "发文拟稿",
+					"taskDefinitionKey": "sid-D250DB79-056C-48B3-BB6D-8EDB92ECABD1",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-14 16:47",
+					"endTime": "2018-06-14 16:47",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "4028ca8263fd735e0163fd7a5c770007",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【部门负责人核稿】"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7a5c770008",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7a5c770009",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"nameAndOrg\":null,\"id\":\"402883d15dc78ccb015dc7ae3b930d60\",\"name\":\"雍伟勋\",\"cellPhone\":\"13888829365\",\"certificateNumber\":\"220502198202270031\",\"age\":0,\"gender\":{\"enable\":true,\"key\":\"male\",\"value\":\"男\",\"dictAttributes\":[]},\"organization\":{\"id\":\"402883d15dc62410015dc637d8a00009\",\"name\":\"党政办公室\"},\"station\":{\"id\":\"402883d15dc62410015dc637d8a1000c\",\"name\":\"党政办公室综合管理岗（合同管理岗）(副主任)\"}}]"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7a5c77000a",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7a5c77000b",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "部门负责人核稿",
+				"taskDefinitionKey": "sid-5CA3A343-C793-4081-89AB-E63FD88C3440",
+				"firstStartTime": "2018-06-14 16:48",
+				"hisTasks": [{
+					"id": "4028ca8263fd735e0163fd7b598d000e",
+					"taskId": "655791",
+					"name": "部门负责人核稿",
+					"taskDefinitionKey": "sid-5CA3A343-C793-4081-89AB-E63FD88C3440",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3b930d60",
+						"avatar": "838740f85642ddd778c4cb4a7d00a735",
+						"name": "雍伟勋",
+						"cellPhone": "13888829365",
+						"organization": "党政办公室",
+						"station": "党政办公室综合管理岗（合同管理岗）(副主任)"
+					},
+					"startTime": "2018-06-14 16:48",
+					"endTime": "2018-06-14 16:48",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "4028ca8263fd735e0163fd7b598d000f",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【文书审稿】"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7b598d0010",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7b598d0011",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7b598d0012",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "同意"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7b598d0013",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7b598d0014",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "文书审稿",
+				"taskDefinitionKey": "sid-31284385-A819-4118-9835-493E79C07300",
+				"firstStartTime": "2018-06-14 16:51",
+				"hisTasks": [{
+					"id": "4028ca8263fd735e0163fd7ddb180017",
+					"taskId": "655808",
+					"name": "文书审稿",
+					"taskDefinitionKey": "sid-31284385-A819-4118-9835-493E79C07300",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-14 16:51",
+					"endTime": "2018-06-14 16:51",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "4028ca8263fd735e0163fd7ddb190018",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【办公室负责人审核】"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7ddb190019",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7ddb19001a",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7ddb19001b",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "同意"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7ddb19001c",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7ddb19001d",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3b930d60\",\"name\":\"雍伟勋\"}]"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "办公室负责人审核",
+				"taskDefinitionKey": "sid-A208A9B6-7BEB-4D54-9211-A6B0B47264C9",
+				"firstStartTime": "2018-06-14 16:52",
+				"hisTasks": [{
+					"id": "4028ca8263fd735e0163fd7ed1d40021",
+					"taskId": "655821",
+					"name": "办公室负责人审核",
+					"taskDefinitionKey": "sid-A208A9B6-7BEB-4D54-9211-A6B0B47264C9",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3b930d60",
+						"avatar": "838740f85642ddd778c4cb4a7d00a735",
+						"name": "雍伟勋",
+						"cellPhone": "13888829365",
+						"organization": "党政办公室",
+						"station": "党政办公室综合管理岗（合同管理岗）(副主任)"
+					},
+					"startTime": "2018-06-14 16:52",
+					"endTime": "2018-06-14 16:52",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "4028ca8263fd735e0163fd7ed1d40022",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【分管领导审核】"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7ed1d40023",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7ed1d40024",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7ed1d40025",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "同意"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7ed1d40026",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7ed1d40027",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"nameAndOrg\":null,\"id\":\"402883d15dc78ccb015dc7ae1f700c8a\",\"name\":\"周罕\",\"cellPhone\":\"15808711223\",\"certificateNumber\":\"34082519770410431X\",\"age\":0,\"gender\":{\"enable\":true,\"key\":\"male\",\"value\":\"男\",\"dictAttributes\":[]},\"organization\":{\"id\":\"402883d15dc62410015dc62780670000\",\"name\":\"领导班子\"},\"station\":{\"id\":\"402883d15dc62410015dc627807f0004\",\"name\":\"领导班子副院长、副总经理\"}}]"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "分管领导审核",
+				"taskDefinitionKey": "sid-7ABC497A-4317-40F9-97AA-A1099092F5B7",
+				"firstStartTime": "2018-06-14 16:52",
+				"hisTasks": [{
+					"id": "4028ca8263fd735e0163fd7f768c0043",
+					"taskId": "655834",
+					"name": "分管领导审核",
+					"taskDefinitionKey": "sid-7ABC497A-4317-40F9-97AA-A1099092F5B7",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae1f700c8a",
+						"avatar": "d101893b454cbd72cbe32de09f1cb695",
+						"name": "周罕",
+						"cellPhone": "15808711223",
+						"organization": "领导班子",
+						"station": "领导班子副院长、副总经理"
+					},
+					"startTime": "2018-06-14 16:52",
+					"endTime": "2018-06-14 16:52",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "4028ca8263fd735e0163fd7f768c0044",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【文书文件签发】"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7f768c0045",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7f768d0046",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7f768d0047",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "同意"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7f768d0048",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd7f768d0049",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "文书文件签发",
+				"taskDefinitionKey": "sid-34A442DF-69AE-4D36-BEA2-7386A25E6814",
+				"firstStartTime": "2018-06-14 16:55",
+				"hisTasks": [{
+					"id": "4028ca8263fd735e0163fd81894d004c",
+					"taskId": "655920",
+					"name": "文书文件签发",
+					"taskDefinitionKey": "sid-34A442DF-69AE-4D36-BEA2-7386A25E6814",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-14 16:55",
+					"endTime": "2018-06-14 16:55",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "4028ca8263fd735e0163fd81894d004d",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【收文组织意见反馈】"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd81894d004e",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd81894d004f",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd81894d0050",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "同意"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd81894d0051",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "收文组织意见反馈",
+				"taskDefinitionKey": "sid-1B1165D2-38B0-41BB-9EBA-B4A62AFBB4EA",
+				"firstStartTime": "2018-06-14 16:57",
+				"hisTasks": [{
+					"id": "4028ca8263fd735e0163fd836c710055",
+					"taskId": "655949",
+					"name": "收文组织意见反馈",
+					"taskDefinitionKey": "sid-1B1165D2-38B0-41BB-9EBA-B4A62AFBB4EA",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3b930d60",
+						"avatar": "838740f85642ddd778c4cb4a7d00a735",
+						"name": "雍伟勋",
+						"cellPhone": "13888829365",
+						"organization": "党政办公室",
+						"station": "党政办公室综合管理岗（合同管理岗）(副主任)"
+					},
+					"startTime": "2018-06-14 16:57",
+					"endTime": "2018-06-14 16:57",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "4028ca8263fd735e0163fd836c710056",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【结束】"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd836c710057",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd836c710058",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "收到"
+					},
+					{
+						"id": "4028ca8263fd735e0163fd836c710059",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": null
+					}]
+				}],
+				"currentTasks": []
+			}],
+			"docProcess": {
+				"enable": true,
+				"key": "official_process",
+				"value": "公文",
+				"dictAttributes": []
+			},
+			"fileTitle": "测试测试",
+			"draftOrg": {
+				"id": "402883d15dc62410015dc637d8a00009",
+				"name": "党政办公室"
+			},
+			"draftDate": "2018-06-14",
+			"drafter": {
+				"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"name": "管力瑶",
+				"cellPhone": "13577105703",
+				"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+				"certificateNumber": "530103198911033722",
+				"organization": {
+					"id": "402883d15dc62410015dc637d8a00009",
+					"name": "党政办公室"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc637d8a1000f",
+					"name": "党政办公室文秘岗（印章管理岗）"
+				},
+				"age": 29,
+				"nameAndOrg": "管力瑶-党政办公室"
+			},
+			"securityLevel": null,
+			"securityDeadline": null,
+			"emergencyDegree": {
+				"enable": true,
+				"key": "normal",
+				"value": "正常",
+				"dictAttributes": []
+			},
+			"fileType": {
+				"enable": true,
+				"key": "disciplinary",
+				"value": "纪检",
+				"dictAttributes": [{
+					"id": "eeac753d6ecd11e890df0309afadfbf1",
+					"enable": true,
+					"createdDate": "2017-07-05 19:50",
+					"lastModifiedDate": "2017-07-05 19:50",
+					"createdBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "发文字号",
+					"key": "JJ_kunkansijizi",
+					"type": "string",
+					"value": "昆勘司纪字"
+				},
+				{
+					"id": "eeac753e6ecd11e890e0d3b8ab456985",
+					"enable": true,
+					"createdDate": "2017-07-05 19:50",
+					"lastModifiedDate": "2017-07-05 19:50",
+					"createdBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "发文字号",
+					"key": "JJ_kunkansijihan",
+					"type": "string",
+					"value": "昆勘司纪函"
+				},
+				{
+					"id": "eeac753f6ecd11e890e1df02ec7edf2d",
+					"enable": true,
+					"createdDate": "2017-07-05 19:50",
+					"lastModifiedDate": "2017-07-05 19:50",
+					"createdBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "发文字号",
+					"key": "JJ_kunkansiwenzi",
+					"type": "string",
+					"value": "昆勘司问字"
+				},
+				{
+					"id": "eeac75406ecd11e890e25fa37a705471",
+					"enable": true,
+					"createdDate": "2017-07-05 19:50",
+					"lastModifiedDate": "2017-07-05 19:50",
+					"createdBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "发文字号",
+					"key": "JJ_kunkansitongbao",
+					"type": "string",
+					"value": "昆勘司通报"
+				},
+				{
+					"id": "eeac75416ecd11e890e3eff8f1b28789",
+					"enable": true,
+					"createdDate": "2017-07-05 19:50",
+					"lastModifiedDate": "2017-07-05 19:50",
+					"createdBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "发文字号",
+					"key": "JJ_kunkansijizhenghan",
+					"type": "string",
+					"value": "昆勘司纪征函"
+				}]
+			},
+			"fileNum": "昆勘司纪函{2018}33",
+			"sendMainOrg": [{
+				"id": "402883d15dc62410015dc637d8a00009",
+				"name": "党政办公室"
+			}],
+			"sendObiterOrg": [],
+			"sendMainParty": [],
+			"sendObiterParty": [],
+			"docAttachment": [{
+				"id": "4028ca8263fd735e0163fd818a4b0052",
+				"enable": true,
+				"createdDate": "2018-06-14 16:55",
+				"lastModifiedDate": "2018-06-14 16:55",
+				"createdBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"name": "昆勘司纪函{2018}33-6a600c338744ebf83681478cd0f9d72a6159a794.jpg",
+				"attachment": "16122fe9628b53ae3a6f83ee8d6c268f",
+				"type": "jpg"
+			}],
+			"otherAttachment": [],
+			"attachmentNum": 0,
+			"remark": null,
+			"signer": {
+				"id": "402883d15dc78ccb015dc7ae1f700c8a",
+				"name": "周罕",
+				"cellPhone": "15808711223",
+				"avatar": "d101893b454cbd72cbe32de09f1cb695",
+				"certificateNumber": "34082519770410431X",
+				"organization": {
+					"id": "402883d15dc62410015dc62780670000",
+					"name": "领导班子"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc627807f0004",
+					"name": "领导班子副院长、副总经理"
+				},
+				"age": 41,
+				"nameAndOrg": "周罕-领导班子"
+			},
+			"sender": {
+				"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"name": "管力瑶",
+				"cellPhone": "13577105703",
+				"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+				"certificateNumber": "530103198911033722",
+				"organization": {
+					"id": "402883d15dc62410015dc637d8a00009",
+					"name": "党政办公室"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc637d8a1000f",
+					"name": "党政办公室文秘岗（印章管理岗）"
+				},
+				"age": 29,
+				"nameAndOrg": "管力瑶-党政办公室"
+			},
+			"sendDocDate": "2018-06-14",
+			"pageNum": 1,
+			"printPerson": {
+				"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"name": "管力瑶",
+				"cellPhone": "13577105703",
+				"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+				"certificateNumber": "530103198911033722",
+				"organization": {
+					"id": "402883d15dc62410015dc637d8a00009",
+					"name": "党政办公室"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc637d8a1000f",
+					"name": "党政办公室文秘岗（印章管理岗）"
+				},
+				"age": 29,
+				"nameAndOrg": "管力瑶-党政办公室"
+			},
+			"publishNum": 1,
+			"proofreader": {
+				"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"name": "管力瑶",
+				"cellPhone": "13577105703",
+				"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+				"certificateNumber": "530103198911033722",
+				"organization": {
+					"id": "402883d15dc62410015dc637d8a00009",
+					"name": "党政办公室"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc637d8a1000f",
+					"name": "党政办公室文秘岗（印章管理岗）"
+				},
+				"age": 29,
+				"nameAndOrg": "管力瑶-党政办公室"
+			},
+			"limitDate": null,
+			"validDate": null,
+			"archiveOrg": {
+				"id": "402883d15dc62410015dc637d8a00009",
+				"name": "党政办公室"
+			},
+			"focusEmp": [],
+			"sendType": "公司发文",
+			"hasIssue": true,
+			"focus": false,
+			"sendCanal": [],
+			"syncTo": [],
+			"noticeEmployees": [],
+			"sendContent": null,
+			"nextStepUri": "oaManagement/sendDocument",
+			"sendMainList": [{
+				"type": "organization",
+				"sendOrg": [{
+					"id": "402883d15dc62410015dc637d8a00009",
+					"enable": true,
+					"sort": 1,
+					"name": "党政办公室",
+					"hasLegalPerson": false,
+					"children": [],
+					"stations": [{
+						"id": "402883d15dc62410015dc637d8a1000b",
+						"enable": true,
+						"name": "党政办公室综合管理岗（合同管理岗）(主任)",
+						"remark": null
+					},
+					{
+						"id": "402883d15dc62410015dc637d8a10011",
+						"enable": true,
+						"name": "党政办公室车辆管理岗(小车班班长)",
+						"remark": null
+					},
+					{
+						"id": "402883d15dc62410015dc637d8a1000d",
+						"enable": true,
+						"name": "党政办公室车辆管理岗(驾驶员)",
+						"remark": null
+					},
+					{
+						"id": "402883d15dc62410015dc637d8a1000e",
+						"enable": true,
+						"name": "党政办公室档案管理岗",
+						"remark": null
+					},
+					{
+						"id": "402883d15dc62410015dc637d8a1000f",
+						"enable": true,
+						"name": "党政办公室文秘岗（印章管理岗）",
+						"remark": null
+					},
+					{
+						"id": "402883d15dc62410015dc637d8a1000a",
+						"enable": true,
+						"name": "党政办公室系统管理员（印章管理岗）",
+						"remark": null
+					},
+					{
+						"id": "402883d15dc62410015dc637d8a10010",
+						"enable": true,
+						"name": "党政办公室印章管理岗兼三体系管理岗",
+						"remark": null
+					},
+					{
+						"id": "402883d15dc62410015dc637d8a1000c",
+						"enable": true,
+						"name": "党政办公室综合管理岗（合同管理岗）(副主任)",
+						"remark": null
+					}],
+					"canSend": true
+				}]
+			}],
+			"sendObiterList": [],
+			"hasArchive": false,
+			"import": false,
+			"alter": false
+		},
+		{
+			"id": "2cb2a8c263f306800163f8a1eed00d4f",
+			"enable": true,
+			"createdDate": "2018-06-13 18:12",
+			"lastModifiedDate": "2018-06-13 18:13",
+			"createdBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"lastModifiedBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"state": "Complete",
+			"assigneeNotifyDtos": [],
+			"action": {
+				"canView": false,
+				"canAlter": false,
+				"canCancel": false,
+				"canFlowable": true,
+				"canBackInitiator": true,
+				"canFlowableAlter": false,
+				"canCancelAlter": false,
+				"canAlterAfterReject": false,
+				"canSponsorAlter": false,
+				"canAttachment": true,
+				"canAudit": false,
+				"canAuditAlter": false,
+				"canFileIssue": false,
+				"canPlusSign": false,
+				"canPause": false,
+				"canSendUrge": false,
+				"canApproveHis": true,
+				"canBack": false,
+				"resume": false
+			},
+			"beforeSign": null,
+			"afterSign": null,
+			"delegateRemark": null,
+			"alterReasons": [],
+			"rejectReasons": [],
+			"canceledReasons": [],
+			"hisTaskStatistics": [{
+				"count": 1,
+				"name": "填写申请表",
+				"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+				"firstStartTime": "2018-06-13 18:12",
+				"hisTasks": [{
+					"id": "2cb2a8c263f306800163f8a1ef0e0d51",
+					"taskId": "655333",
+					"name": "填写申请表",
+					"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-13 18:12",
+					"endTime": "2018-06-13 18:12",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8c263f306800163f8a1ef0e0d52",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【文书审核】"
+					},
+					{
+						"id": "2cb2a8c263f306800163f8a1ef0e0d53",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8c263f306800163f8a1ef0e0d54",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					},
+					{
+						"id": "2cb2a8c263f306800163f8a1ef0e0d55",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "2cb2a8c263f306800163f8a1ef0e0d56",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "文书审核",
+				"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+				"firstStartTime": "2018-06-13 18:13",
+				"hisTasks": [{
+					"id": "2cb2a8c263f306800163f8a2ab0c0d59",
+					"taskId": "655339",
+					"name": "文书审核",
+					"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-13 18:13",
+					"endTime": "2018-06-13 18:13",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8c263f306800163f8a2ab0c0d5a",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【结束】"
+					},
+					{
+						"id": "2cb2a8c263f306800163f8a2ab0c0d5b",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8c263f306800163f8a2ab0c0d5c",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "通过"
+					},
+					{
+						"id": "2cb2a8c263f306800163f8a2ab0c0d5d",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					}]
+				}],
+				"currentTasks": []
+			}],
+			"docProcess": {
+				"enable": true,
+				"key": "internal_notice",
+				"value": "内部通知",
+				"dictAttributes": []
+			},
+			"fileTitle": "测试003",
+			"draftOrg": {
+				"id": "402883d15dc62410015dc637d8a00009",
+				"name": "党政办公室"
+			},
+			"draftDate": "2018-06-13",
+			"drafter": {
+				"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"name": "管力瑶",
+				"cellPhone": "13577105703",
+				"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+				"certificateNumber": "530103198911033722",
+				"organization": {
+					"id": "402883d15dc62410015dc637d8a00009",
+					"name": "党政办公室"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc637d8a1000f",
+					"name": "党政办公室文秘岗（印章管理岗）"
+				},
+				"age": 29,
+				"nameAndOrg": "管力瑶-党政办公室"
+			},
+			"securityLevel": null,
+			"securityDeadline": null,
+			"emergencyDegree": null,
+			"fileType": null,
+			"fileNum": null,
+			"sendMainOrg": [],
+			"sendObiterOrg": [],
+			"sendMainParty": [],
+			"sendObiterParty": [],
+			"docAttachment": [{
+				"id": "2cb2a8c263f306800163f8a2ac350d5e",
+				"enable": true,
+				"createdDate": "2018-06-13 18:13",
+				"lastModifiedDate": "2018-06-13 18:13",
+				"createdBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"name": "true.jpg",
+				"attachment": "b4e4cd299715dff7e68a96caf1672b61",
+				"type": "jpg"
+			}],
+			"otherAttachment": [],
+			"attachmentNum": 0,
+			"remark": null,
+			"signer": null,
+			"sender": null,
+			"sendDocDate": null,
+			"pageNum": 0,
+			"printPerson": null,
+			"publishNum": 0,
+			"proofreader": null,
+			"limitDate": null,
+			"validDate": null,
+			"archiveOrg": null,
+			"focusEmp": [],
+			"sendType": "公司发文",
+			"hasIssue": false,
+			"focus": false,
+			"sendCanal": [{
+				"enable": true,
+				"key": "neiwang",
+				"value": "内网",
+				"dictAttributes": []
+			}],
+			"syncTo": [{
+				"id": "8a80cb815d459a9e015d45a5f36e0001",
+				"enable": true,
+				"sort": 2,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15ccd5c03015ccdb441f6000a",
+					"enable": true,
+					"createdDate": "2017-06-22 10:49",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "首页",
+					"uri": "home",
+					"visible": false,
+					"sort": 0,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "nbtz",
+				"createdDate": "2017-07-15 17:48",
+				"lastModifiedDate": "2017-07-15 17:48",
+				"createdBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"hits": 0,
+				"writable": false
+			},
+			{
+				"id": "402883d15ce2f3fb015ce30aa4cd0007",
+				"enable": true,
+				"sort": 1,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15cc54f5d015cc56bf14e0006",
+					"enable": true,
+					"createdDate": "2017-06-20 20:13",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "文件通知",
+					"uri": "notification",
+					"visible": true,
+					"sort": 3,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "internal",
+				"createdDate": "2017-06-26 14:15",
+				"lastModifiedDate": "2017-06-27 09:56",
+				"createdBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"lastModifiedBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"hits": 0,
+				"writable": false
+			}],
+			"noticeEmployees": [],
+			"sendContent": null,
+			"nextStepUri": "oaManagement/sendDocument",
+			"sendMainList": [],
+			"sendObiterList": [],
+			"hasArchive": false,
+			"import": false,
+			"alter": false
+		},
+		{
+			"id": "2cb2a8d163f707880163f89195e50023",
+			"enable": true,
+			"createdDate": "2018-06-13 17:54",
+			"lastModifiedDate": "2018-06-13 17:56",
+			"createdBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"lastModifiedBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"state": "Complete",
+			"assigneeNotifyDtos": [],
+			"action": {
+				"canView": false,
+				"canAlter": false,
+				"canCancel": false,
+				"canFlowable": true,
+				"canBackInitiator": true,
+				"canFlowableAlter": false,
+				"canCancelAlter": false,
+				"canAlterAfterReject": false,
+				"canSponsorAlter": false,
+				"canAttachment": true,
+				"canAudit": false,
+				"canAuditAlter": false,
+				"canFileIssue": false,
+				"canPlusSign": false,
+				"canPause": false,
+				"canSendUrge": false,
+				"canApproveHis": true,
+				"canBack": false,
+				"resume": false
+			},
+			"beforeSign": null,
+			"afterSign": null,
+			"delegateRemark": null,
+			"alterReasons": [],
+			"rejectReasons": [],
+			"canceledReasons": [],
+			"hisTaskStatistics": [{
+				"count": 1,
+				"name": "填写申请表",
+				"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+				"firstStartTime": "2018-06-13 17:54",
+				"hisTasks": [{
+					"id": "2cb2a8d163f707880163f891961b0025",
+					"taskId": "655239",
+					"name": "填写申请表",
+					"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-13 17:54",
+					"endTime": "2018-06-13 17:54",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8d163f707880163f891961b0026",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【文书审核】"
+					},
+					{
+						"id": "2cb2a8d163f707880163f891961b0027",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8d163f707880163f891961b0028",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					},
+					{
+						"id": "2cb2a8d163f707880163f891961c0029",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "2cb2a8d163f707880163f891961c002a",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "文书审核",
+				"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+				"firstStartTime": "2018-06-13 17:56",
+				"hisTasks": [{
+					"id": "2cb2a8d163f707880163f892ec81002d",
+					"taskId": "655245",
+					"name": "文书审核",
+					"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-13 17:56",
+					"endTime": "2018-06-13 17:56",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8d163f707880163f892ec81002e",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【结束】"
+					},
+					{
+						"id": "2cb2a8d163f707880163f892ec81002f",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8d163f707880163f892ec810030",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "士"
+					},
+					{
+						"id": "2cb2a8d163f707880163f892ec810031",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					}]
+				}],
+				"currentTasks": []
+			}],
+			"docProcess": {
+				"enable": true,
+				"key": "internal_notice",
+				"value": "内部通知",
+				"dictAttributes": []
+			},
+			"fileTitle": "他人同意",
+			"draftOrg": {
+				"id": "402883d15dc62410015dc637d8a00009",
+				"name": "党政办公室"
+			},
+			"draftDate": "2018-06-13",
+			"drafter": {
+				"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"name": "管力瑶",
+				"cellPhone": "13577105703",
+				"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+				"certificateNumber": "530103198911033722",
+				"organization": {
+					"id": "402883d15dc62410015dc637d8a00009",
+					"name": "党政办公室"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc637d8a1000f",
+					"name": "党政办公室文秘岗（印章管理岗）"
+				},
+				"age": 29,
+				"nameAndOrg": "管力瑶-党政办公室"
+			},
+			"securityLevel": null,
+			"securityDeadline": null,
+			"emergencyDegree": null,
+			"fileType": null,
+			"fileNum": null,
+			"sendMainOrg": [],
+			"sendObiterOrg": [],
+			"sendMainParty": [],
+			"sendObiterParty": [],
+			"docAttachment": [{
+				"id": "2cb2a8d163f707880163f892ed1e0032",
+				"enable": true,
+				"createdDate": "2018-06-13 17:56",
+				"lastModifiedDate": "2018-06-13 17:56",
+				"createdBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"name": "ip连接.png",
+				"attachment": "dd11daa666c3e3da9b7e4f3d2ad2761e",
+				"type": "png"
+			}],
+			"otherAttachment": [],
+			"attachmentNum": 1,
+			"remark": null,
+			"signer": null,
+			"sender": null,
+			"sendDocDate": null,
+			"pageNum": 0,
+			"printPerson": null,
+			"publishNum": 0,
+			"proofreader": null,
+			"limitDate": null,
+			"validDate": null,
+			"archiveOrg": null,
+			"focusEmp": [],
+			"sendType": "公司发文",
+			"hasIssue": false,
+			"focus": false,
+			"sendCanal": [{
+				"enable": true,
+				"key": "neiwang",
+				"value": "内网",
+				"dictAttributes": []
+			}],
+			"syncTo": [{
+				"id": "8a80cb815d459a9e015d45a5f36e0001",
+				"enable": true,
+				"sort": 2,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15ccd5c03015ccdb441f6000a",
+					"enable": true,
+					"createdDate": "2017-06-22 10:49",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "首页",
+					"uri": "home",
+					"visible": false,
+					"sort": 0,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "nbtz",
+				"createdDate": "2017-07-15 17:48",
+				"lastModifiedDate": "2017-07-15 17:48",
+				"createdBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"hits": 0,
+				"writable": false
+			},
+			{
+				"id": "402883d15ce2f3fb015ce30aa4cd0007",
+				"enable": true,
+				"sort": 1,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15cc54f5d015cc56bf14e0006",
+					"enable": true,
+					"createdDate": "2017-06-20 20:13",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "文件通知",
+					"uri": "notification",
+					"visible": true,
+					"sort": 3,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "internal",
+				"createdDate": "2017-06-26 14:15",
+				"lastModifiedDate": "2017-06-27 09:56",
+				"createdBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"lastModifiedBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"hits": 0,
+				"writable": false
+			}],
+			"noticeEmployees": [],
+			"sendContent": null,
+			"nextStepUri": "oaManagement/sendDocument",
+			"sendMainList": [],
+			"sendObiterList": [],
+			"hasArchive": false,
+			"import": false,
+			"alter": false
+		},
+		{
+			"id": "2cb2a8d163f707880163f882ee3d0000",
+			"enable": true,
+			"createdDate": "2018-06-13 17:38",
+			"lastModifiedDate": "2018-06-13 17:39",
+			"createdBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"lastModifiedBy": {
+				"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"ownerName": "管力瑶",
+				"organization": "402883d15dc62410015dc637d8a00009",
+				"orgName": "党政办公室"
+			},
+			"state": "Complete",
+			"assigneeNotifyDtos": [],
+			"action": {
+				"canView": false,
+				"canAlter": false,
+				"canCancel": false,
+				"canFlowable": true,
+				"canBackInitiator": true,
+				"canFlowableAlter": false,
+				"canCancelAlter": false,
+				"canAlterAfterReject": false,
+				"canSponsorAlter": false,
+				"canAttachment": true,
+				"canAudit": false,
+				"canAuditAlter": false,
+				"canFileIssue": false,
+				"canPlusSign": false,
+				"canPause": false,
+				"canSendUrge": false,
+				"canApproveHis": true,
+				"canBack": false,
+				"resume": false
+			},
+			"beforeSign": null,
+			"afterSign": null,
+			"delegateRemark": null,
+			"alterReasons": [],
+			"rejectReasons": [],
+			"canceledReasons": [],
+			"hisTaskStatistics": [{
+				"count": 1,
+				"name": "填写申请表",
+				"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+				"firstStartTime": "2018-06-13 17:38",
+				"hisTasks": [{
+					"id": "2cb2a8d163f707880163f882efb30002",
+					"taskId": "655075",
+					"name": "填写申请表",
+					"taskDefinitionKey": "sid-89FC93B2-F213-4E99-8C58-6159E73ACB28",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-13 17:38",
+					"endTime": "2018-06-13 17:38",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8d163f707880163f882efb30003",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【文书审核】"
+					},
+					{
+						"id": "2cb2a8d163f707880163f882efb40004",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8d163f707880163f882efb40005",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					},
+					{
+						"id": "2cb2a8d163f707880163f882efb40006",
+						"enable": true,
+						"filedId": "timeAsk",
+						"filedName": "时限要求",
+						"fieldType": "string",
+						"fieldValue": "不限"
+					},
+					{
+						"id": "2cb2a8d163f707880163f882efb40007",
+						"enable": true,
+						"filedId": "urgeNextMan",
+						"filedName": "手机提醒下一步办理人",
+						"fieldType": "boolean",
+						"fieldValue": "false"
+					}]
+				}],
+				"currentTasks": []
+			},
+			{
+				"count": 1,
+				"name": "文书审核",
+				"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+				"firstStartTime": "2018-06-13 17:39",
+				"hisTasks": [{
+					"id": "2cb2a8d163f707880163f8835109000a",
+					"taskId": "655081",
+					"name": "文书审核",
+					"taskDefinitionKey": "sid-4F395077-E825-4B0F-A6AA-AFC1604054FB",
+					"assignee": {
+						"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+						"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+						"name": "管力瑶",
+						"cellPhone": "13577105703",
+						"organization": "党政办公室",
+						"station": "党政办公室文秘岗（印章管理岗）"
+					},
+					"startTime": "2018-06-13 17:39",
+					"endTime": "2018-06-13 17:39",
+					"approve": true,
+					"opinion": null,
+					"properties": [{
+						"id": "2cb2a8d163f707880163f8835109000b",
+						"enable": true,
+						"filedId": "nextStep",
+						"filedName": "下一步骤",
+						"fieldType": "string",
+						"fieldValue": "【结束】"
+					},
+					{
+						"id": "2cb2a8d163f707880163f8835109000c",
+						"enable": true,
+						"filedId": "approve",
+						"filedName": "是否通过",
+						"fieldType": "boolean",
+						"fieldValue": "true"
+					},
+					{
+						"id": "2cb2a8d163f707880163f8835109000d",
+						"enable": true,
+						"filedId": "opinion",
+						"filedName": "审批意见",
+						"fieldType": "string",
+						"fieldValue": "发光飞碟"
+					},
+					{
+						"id": "2cb2a8d163f707880163f8835109000e",
+						"enable": true,
+						"filedId": "nextStepMan",
+						"filedName": "下一步办理人",
+						"fieldType": "string",
+						"fieldValue": "[{\"id\":\"402883d15dc78ccb015dc7ae3c5e0d66\",\"name\":\"管力瑶\"}]"
+					}]
+				}],
+				"currentTasks": []
+			}],
+			"docProcess": {
+				"enable": true,
+				"key": "internal_notice",
+				"value": "内部通知",
+				"dictAttributes": []
+			},
+			"fileTitle": "张磊测试最新内部通知",
+			"draftOrg": {
+				"id": "402883d15dc62410015dc637d8a00009",
+				"name": "党政办公室"
+			},
+			"draftDate": "2018-06-13",
+			"drafter": {
+				"id": "402883d15dc78ccb015dc7ae3c5e0d66",
+				"name": "管力瑶",
+				"cellPhone": "13577105703",
+				"avatar": "f5f82374b0e60b647c7526e7d56d1f39",
+				"certificateNumber": "530103198911033722",
+				"organization": {
+					"id": "402883d15dc62410015dc637d8a00009",
+					"name": "党政办公室"
+				},
+				"station": {
+					"id": "402883d15dc62410015dc637d8a1000f",
+					"name": "党政办公室文秘岗（印章管理岗）"
+				},
+				"age": 29,
+				"nameAndOrg": "管力瑶-党政办公室"
+			},
+			"securityLevel": null,
+			"securityDeadline": null,
+			"emergencyDegree": null,
+			"fileType": null,
+			"fileNum": null,
+			"sendMainOrg": [],
+			"sendObiterOrg": [],
+			"sendMainParty": [],
+			"sendObiterParty": [],
+			"docAttachment": [{
+				"id": "2cb2a8d163f707880163f88352b2000f",
+				"enable": true,
+				"createdDate": "2018-06-13 17:39",
+				"lastModifiedDate": "2018-06-13 17:39",
+				"createdBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15dc78ccb015dc7ae3c5e0d66",
+					"ownerName": "管力瑶",
+					"organization": "402883d15dc62410015dc637d8a00009",
+					"orgName": "党政办公室"
+				},
+				"name": "ip连接.png",
+				"attachment": "dd11daa666c3e3da9b7e4f3d2ad2761e",
+				"type": "png"
+			}],
+			"otherAttachment": [],
+			"attachmentNum": 1,
+			"remark": null,
+			"signer": null,
+			"sender": null,
+			"sendDocDate": null,
+			"pageNum": 0,
+			"printPerson": null,
+			"publishNum": 0,
+			"proofreader": null,
+			"limitDate": null,
+			"validDate": null,
+			"archiveOrg": null,
+			"focusEmp": [],
+			"sendType": "公司发文",
+			"hasIssue": false,
+			"focus": false,
+			"sendCanal": [{
+				"enable": true,
+				"key": "neiwang",
+				"value": "内网",
+				"dictAttributes": []
+			}],
+			"syncTo": [{
+				"id": "8a80cb815d459a9e015d45a5f36e0001",
+				"enable": true,
+				"sort": 2,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15ccd5c03015ccdb441f6000a",
+					"enable": true,
+					"createdDate": "2017-06-22 10:49",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "首页",
+					"uri": "home",
+					"visible": false,
+					"sort": 0,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "nbtz",
+				"createdDate": "2017-07-15 17:48",
+				"lastModifiedDate": "2017-07-15 17:48",
+				"createdBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"lastModifiedBy": {
+					"owner": "402883d15ce4538c015ce464e37f0006",
+					"organization": "402883d15ce8ac7b015ce8f5c6bc0004"
+				},
+				"hits": 0,
+				"writable": false
+			},
+			{
+				"id": "402883d15ce2f3fb015ce30aa4cd0007",
+				"enable": true,
+				"sort": 1,
+				"name": "内部通知",
+				"children": [],
+				"type": "List",
+				"page": {
+					"id": "402883d15cc54f5d015cc56bf14e0006",
+					"enable": true,
+					"createdDate": "2017-06-20 20:13",
+					"lastModifiedDate": "2017-11-21 10:41",
+					"createdBy": {
+						"owner": "admin",
+						"organization": "技术部"
+					},
+					"lastModifiedBy": {
+						"owner": "8a80cb815d7332cf015d7337254d0003",
+						"ownerName": "系统管理员",
+						"organization": "402883d15ca51e24015ca58e14d20001",
+						"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+					},
+					"name": "文件通知",
+					"uri": "notification",
+					"visible": true,
+					"sort": 3,
+					"site": {
+						"id": "402883d15cc42eee015cc488a2180011",
+						"enable": false,
+						"createdDate": "2017-06-20 16:05",
+						"lastModifiedDate": "2017-11-21 10:41",
+						"createdBy": {
+							"owner": "admin",
+							"organization": "技术部"
+						},
+						"lastModifiedBy": {
+							"owner": "8a80cb815d7332cf015d7337254d0003",
+							"ownerName": "系统管理员",
+							"organization": "402883d15ca51e24015ca58e14d20001",
+							"orgName": "中国有色金属工业昆明勘察设计研究院有限公司"
+						},
+						"name": "内网站点",
+						"thumbnail": "c43f02dacb1cad791c06ccd67b4e83fb",
+						"remark": "昆勘院内网站点",
+						"hits": 0,
+						"writable": false
+					},
+					"hits": 0,
+					"writable": false,
+					"initialize": false
+				},
+				"uri": "internal",
+				"createdDate": "2017-06-26 14:15",
+				"lastModifiedDate": "2017-06-27 09:56",
+				"createdBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"lastModifiedBy": {
+					"owner": "admin",
+					"organization": "技术部"
+				},
+				"hits": 0,
+				"writable": false
+			}],
+			"noticeEmployees": [],
+			"sendContent": null,
+			"nextStepUri": "oaManagement/sendDocument",
+			"sendMainList": [],
+			"sendObiterList": [],
+			"hasArchive": false,
+			"import": false,
+			"alter": false
+		}],
+		"totalElements": 8,
+		"last": true,
+		"totalPages": 1,
+		"number": 0,
+		"size": 10,
+		"sort": null,
+		"numberOfElements": 8,
+		"first": true
+	}
 }
