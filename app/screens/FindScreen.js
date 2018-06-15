@@ -47,8 +47,14 @@ export default class FindScreen extends Component {
           <ListItem icon={require('../../images/ic_shake.png')} text={"企业办公"} handleClick={() => {
             this.props.navigation.navigate("Shake")
           }}/>
+
           <View style={{width: width, height: 20}}/>
-          <ListItem icon={require('../../images/ic_nearby.png')} text={"公文发送"}/>
+
+          <ListItem icon={require('../../images/ic_nearby.png')} text={"发文管理"}/>
+          <ListItemDivider/>
+          <ListItem icon={require('../../images/ic_nearby.png')} text={"收文管理"} handleClick={() => {
+            this.props.navigation.navigate('FileReceive')
+          }} />
           <ListItemDivider/>
          
           <ListItem icon={require('../../images/ic_shopping.png')} text={"其他"} handleClick={() => {

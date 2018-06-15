@@ -32,6 +32,7 @@ export default class LoginScreen extends Component {
       token: '',
       avatar: ''
     };
+    console.disableYellowBox = true;
     StorageUtil.get('username', (error, object) => {
       if (!error && object && object.username) {
         this.setState({username: object.username});
@@ -132,21 +133,22 @@ export default class LoginScreen extends Component {
     // this.setState({showProgress: true});
     // jwt
     fetch(url, postData)
-      .then((res) => {
+      .then((res) => res.json())
+      .then((info) => {
         // this.setState({showProgress: false});
-        console.log(res);
+        console.log(info);
         // 检验服务端返回状态
-        // if (res.status === config.http.status.success) {
-        if (res.status === 200) {
+        if (info.status === config.http.status.success) {
           console.log('In');
-          Toast.show('登录成功');
-          // this.props.navigation.navigate('Home');
+          Toast.show(config.success.text);
+          // todo 储存用户令牌
+          this.props.navigation.navigate('Home');
         } else {
           console.log('out');
-          Toast.show('登录失败');
+          console.log(info.data.code+info.data.description);
+          Toast.show(`登录失败  ${info.data.code}  ${info.data.description}`);
         }
       });
-    console.log('fetchEnd');
     // fetch(url, {
     //   method: 'POST',
     //   headers: header,

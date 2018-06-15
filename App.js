@@ -12,6 +12,8 @@ import HomeScreen from "./app/screens/HomeScreen";
 import ContactsScreen from "./app/screens/ContactsScreen";
 import FindScreen from "./app/screens/FindScreen";
 import MeScreen from "./app/screens/MeScreen";
+import FileReceiveScreen from "./app/screens/FileReceive";
+
 import {
   Platform,
   StyleSheet,
@@ -48,7 +50,8 @@ const indexScreen = TabNavigator({
 
 
 export default App= createStackNavigator({
-  // Splash: {screen: SplashScreen},
+  FileReceive: {screen: FileReceiveScreen},
+  Splash: {screen: SplashScreen},
   Login: {screen: LoginScreen},
   Home: {screen:indexScreen}
 }, {
